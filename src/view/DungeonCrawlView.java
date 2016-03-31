@@ -3,6 +3,7 @@ package view;
 import java.awt.BasicStroke;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
 
 import javax.swing.JPanel;
 
@@ -27,5 +28,10 @@ public class DungeonCrawlView extends JPanel{
 				g.drawImage(controller.getTileAt(x, y), x*20, y*20, null);
 			}
 		}
+	}
+	
+	//draws character at intended position; dunno if will be used
+	public void moveCharacter(int row, int col, BufferedImage image){
+
 	}
 }
