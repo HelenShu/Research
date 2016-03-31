@@ -12,7 +12,7 @@ public class BackgroundTile extends Tile {
 
 	private boolean walkable;	// Determines whether this tile can be walked on
 	
-	public BackgroundTile(ImageIcon icon, String fileName) {
+	public BackgroundTile(BufferedImage icon, String fileName) {
 		super(icon, fileName);
 		walkable = true;
 	}
